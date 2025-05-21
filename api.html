@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>API - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0b1e3d; /* Bleu nuit */
+      color: white;
+    }
+    .navbar {
+      background-color: #06142e;
+    }
+    .nav-link {
+      color: white !important;
+    }
+    .nav-link:hover {
+      color: #ffc107 !important;
+    }
+    .content {
+      padding: 100px 20px 40px;
+    }
+    h2 {
+      margin-top: 40px;
+      color: #ffc107;
+    }
+    a.download-link {
+      color: #00d4ff;
+      text-decoration: underline;
+    }
+    a.download-link:hover {
+      color: #ffc107;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Barre de navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="index.html">Accueil</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon text-white"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="api.html">API</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="icgo.html">ICGO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="stages.html">Stages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="veille.html">Veille informationnelle</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenu principal -->
+  <div class="content container">
+    <h1 class="text-center mb-4">Travail sur les APIs</h1>
+
+    <h2>Qu'est-ce qu'une API ?</h2>
+    <p>
+      Une API (Application Programming Interface) est une interface permettant à différentes applications de communiquer entre elles.
+      Elle définit un ensemble de règles et de fonctions que les développeurs peuvent utiliser pour accéder à certaines fonctionnalités ou données, souvent à travers le web.
+    </p>
+
+    <h2>Exercices réalisés</h2>
+    <ul>
+      <li>
+        <strong>API sur les vélos en libre service :</strong> Nous avons utilisé une base de données publique pour récupérer la disponibilité des vélos dans différentes villes. 
+        Cela nous a permis de manipuler les requêtes HTTP et de traiter les réponses JSON.
+      </li>
+      <li>
+        <strong>API musicale personnalisée :</strong> J'ai conçu une petite API qui permet de rechercher des musiques sur Deezer selon leur genre musical.
+        Ce projet m’a permis de mieux comprendre les appels à des API externes et la structuration de réponses dynamiques.
+      </li>
+      <li>
+        <strong>Application de contact (connexion utilisateur) :</strong> La dernière API développée permettait la création d’une connexion sécurisée.
+        Elle gère l’authentification et la vérification des identifiants, un début vers la sécurisation des services web.
+      </li>
+    </ul>
+
+    <h2>Compétences développées</h2>
+    <ul>
+      <li>Compréhension et manipulation du protocole HTTP (GET, POST)</li>
+      <li>Utilisation et conception d’API REST</li>
+      <li>Gestion des formats JSON pour l’échange de données</li>
+      <li>Utilisation d’API externes (ex : Deezer)</li>
+      <li>Création d’API sécurisées avec gestion d’utilisateurs</li>
+      <li>Débogage et documentation des routes</li>
+    </ul>
+
+    <h2>Documents à télécharger</h2>
+    <ul>
+      <li><a class="download-link" href="API-1-Definition.pdf" download>Définition d'une API - PDF</a></li>
+      <li><a class="download-link" href="API-1-Pratique.pdf" download>Travail pratique sur les API - PDF</a></li>
+    </ul>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
